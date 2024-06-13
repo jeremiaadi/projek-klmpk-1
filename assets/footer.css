@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.subscription-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.subscription-text {
+    margin-right: 20px;
+}
+.subscription-text h2 {
+    margin: 0 0 10px 0;
+}
+.subscription-text p {
+    margin: 0 0 10px 0;
+}
+.subscription-section input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.subscription-section button {
+    padding: 10px 20px;
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.subscription-section button:hover {
+    background-color: #a52a2a;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer div {
+    margin: 10px 20px;
+}
+.footer h3 {
+    margin-bottom: 20px;
+}
+.footer p, .footer a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+}
+.footer .social-icons a:hover {
+    color: #a52a2a;
+}
+.footer .download-apps img {
+    width: 150px;
+    margin: 10px 0;
+}
+.footer-bottom {
+    background-color: #a52a2a;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom p {
+    margin: 0;
+}
+.footer-bottom .payment-icons {
+    display: flex;
+    gap: 15px;
+}
+.footer-bottom img {
+    vertical-align: middle;
+}
