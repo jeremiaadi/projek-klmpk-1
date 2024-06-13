@@ -4,7 +4,7 @@
 	<title>Fitur Upload Foto dengan PHP & Mysql</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 </head>
-<body>
+<body> 
 	<div class="container">
 		<div class="col-md-12 row justify-content-center">
 			<div class="col-md-8 mt-4">
