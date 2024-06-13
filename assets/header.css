@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header-top {
+    background-color: #f5f5f5;
+    color: #750000;
+    padding: 10px 0;
+}
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header-top .logo {
+    display: flex;
+    align-items: center;
+}
+.header-top .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.header-top .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #750000;
+}
+.header-top .search-bar {
+    display: flex;
+    align-items: center;
+}
+.header-top .search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 250px;
+}
+.header-top .search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #750000;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.header-top .search-bar button:hover {
+    background-color: #900;
+}
+.nav-bar {
+    background-color: #750000;
+    color: #fff;
+    padding: 15px 0;
+}
+.nav-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav-bar nav {
+    display: flex; 
+    align-items: center;
+}
+.nav-bar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    position: relative;
+}
+.nav-bar nav a:hover {
+    text-decoration: underline;
+}
+.nav-bar .menu-icon,
+.nav-bar .user-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.nav-bar nav.active {
+    display: flex;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.close-btn {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
